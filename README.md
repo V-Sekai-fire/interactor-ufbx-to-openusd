@@ -11,7 +11,7 @@ Every FBX file states its own up axis, front axis, unit scale and frame rate. Th
     docker build -t ufbx-to-openusd .
     python test_validate_geometry.py
 
-The image runs the HTTP server. The tests need the `usd-core` Python package.
+The image runs the HTTP server. The tests need the `usd-core` and `numpy` Python packages.
 
 ## Licence
 

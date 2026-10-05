@@ -122,7 +122,7 @@ def predict(req: Request):
         # inherit_mode_handling, and both change what lands, so the skinning path is confirmed
         # against that file before it is trusted rather than after.
         raise NotImplementedError(
-            "USD write not wired. The probe half is verified; see README's Status."
+            "USD write not wired; only the probe and the geometry checks run."
         )
 
 
